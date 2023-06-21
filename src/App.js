@@ -1,6 +1,6 @@
 
 // import './App.css';
-import  {useState} from 'react';
+// import  {useState} from 'react';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import './p2.css';

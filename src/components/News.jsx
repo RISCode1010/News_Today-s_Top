@@ -36,7 +36,7 @@ export default function News(props) {
       body: JSON.stringify(params),
     };
     let response = await fetch(
-      "http://localhost:5000/api/news",
+      `${process.env.REACT_APP_BACKEND_URL}/api/news`,
       requestOptions
     );
     // console.log(response);
@@ -75,7 +75,7 @@ export default function News(props) {
       body: JSON.stringify(params),
     };
     let response = await fetch(
-      "http://localhost:5000/api/news",
+      `${process.env.REACT_APP_BACKEND_URL}/api/news`,
       requestOptions
     );
     // console.log(response);
