@@ -19,7 +19,7 @@ export default function Navbar() {
           <NavLink to="/health">Health</NavLink>
           <NavLink to="/science">Science</NavLink>
           <NavLink to="/sports">Sports</NavLink>
-          {/* <NavLink to="/tecnology">Technology</NavLink> */}
+          <NavLink to="/technology">Technology</NavLink>
         </div>
       </header>
     </div>
