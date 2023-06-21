@@ -17,17 +17,17 @@ export default function News(props) {
   } 
 
     const updateNews = async ()=> {
-        props.setProgress(10);
+        // props.setProgress(10);
         const url = `${process.env.REACT_APP_API_URL}?country=${props.country}&category=${props.category}&apiKey=${process.env.REACT_APP_API_KEY}&page=${page}&pageSize=${props.pageSize}`; 
         setLoading(true)
         let data = await fetch(url);
-        props.setProgress(30);
+        // props.setProgress(30);
         let parsedData = await data.json();
-        props.setProgress(70);
+        // props.setProgress(70);
         setArticles(parsedData.articles)
         setTotalResults(parsedData.totalResults)
         setLoading(false)
-        props.setProgress(100);
+        // props.setProgress(100);
     }
 
 
