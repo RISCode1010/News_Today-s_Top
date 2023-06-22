@@ -183,7 +183,7 @@ header {
     /* font-size: 30px; */
   }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 900px){
 
     header {
         height: 12vh;
@@ -217,7 +217,7 @@ header {
         /* margin-left: 100px; */
          /* padding-top: -40vh; */
         /* color: brown; */
-        top: 65px;
+        top: 80px;
     right: -300px;
     width: 300px;
     height: 92vh;
@@ -288,3 +288,25 @@ header {
 }
 
 
+@media screen and (min-device-width: 900px) and (max-device-width:1350px){
+    .logo .lo {
+        margin: 28px 0 0 20px;     
+    }
+    
+
+    .heading {
+        margin: 40px 0 0 8px;
+        font-size: 15px;
+    }
+
+    .menu a {
+        color: rgb(233, 226, 226);
+        text-decoration: none;
+        margin-right: 21px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0px;
+        outline: none;
+    }
+} 

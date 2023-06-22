@@ -8,6 +8,14 @@ export default function Navbar() {
   const handleClick = ()=>{
     setClicked(!clicked)
   }
+
+  // const handleMouseClick = (event)=>{
+  //   var mouseClickWidth = event.clientX;
+  //         if(mouseClickWidth>300){
+  //               document.getElementById("active").style.right='-300px'
+  //         }
+  //         handleClick();
+  // }
   return (
     <div>
       <header>
