@@ -171,3 +171,87 @@ header {
 .tick{
     color: rgb(223, 25, 25);
 }
+
+#mobile {
+    display: none;
+  }
+
+  
+  #mobile i {
+    color: #fff;
+    align-items: center;
+    /* font-size: 30px; */
+  }
+
+@media screen and (max-width: 769px){
+    .menu{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right:0;
+        position: fixed;
+        /* width: 100%; */
+        /* height: ; */
+        /* margin-left: 100px; */
+         /* padding-top: -40vh; */
+        /* color: brown; */
+        top: 95px;
+    right: -350px;
+    width: 350px;
+    height: 100vh;
+    background: #1d1e1e;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease-in-out;
+        /* background-color: aqua; */
+    }
+
+    .menu .menu-link{
+        /* color: rgb(233, 226, 226); */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* border-bottom: 1px solid gray; */
+        /* border-top: 1px solid gray; */
+        padding: 40px 0 30px 3.9em;
+        
+        /* margin: 15px; */
+        /* width: 100;
+        padding: 5px 0px;
+        margin:20px 20px 40px 20px ; */
+        /* text-decoration: none; */
+        /* margin-right: 70px; */
+        /* font-weight: 500; */
+        /* text-transform: uppercase; */
+        /* font-size: 15px; */
+        /* letter-spacing: 1px;
+        outline: none; */
+    }
+    .menu-link a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 50px;
+        font-size: 17px;
+        /* background : aqua; */
+    }
+
+    #mobile {
+        display: block;
+      }
+    
+      #mobile i {
+        font-size: 30px;
+        cursor: pointer;
+        margin: 10px 30px 10px 0;
+      }
+
+      #active {
+        right: 0px;
+      }
+}
+
+
